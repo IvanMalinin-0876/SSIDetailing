@@ -227,6 +227,7 @@
     <Content Include="assets-5\font-awesome\css\font-awesome.min.css" />
     <Content Include="assets-5\font-awesome\font\fontawesome-webfont.svg" />
     <Content Include="assets-5\site\css\bigfont.css" />
+    <Content Include="assets-5\site\css\bootstrap-carousel-template.css" />
     <Content Include="assets-5\site\img\cropped\37fordtruck_after_w300.jpg" />
     <Content Include="assets-5\site\img\cropped\greenjag_after_w300.jpg" />
     <Content Include="assets-5\site\img\cropped\jeep2scratches_after_w300.jpg" />
@@ -245,6 +246,11 @@
     <Content Include="assets-5\site\img\original\porshe_after.jpg" />
     <Content Include="assets-5\site\js\bigfont.js" />
     <Content Include="assets-5\site\js\bigfont.min.js" />
+    <Content Include="assets-5\site\js\google-code-prettify\prettify.css" />
+    <Content Include="assets-5\site\js\google-code-prettify\prettify.js" />
+    <Content Include="assets-5\site\js\holder.js" />
+    <Content Include="assets-5\site\js\html5shiv.js" />
+    <Content Include="assets-5\site\js\jquery.js" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
