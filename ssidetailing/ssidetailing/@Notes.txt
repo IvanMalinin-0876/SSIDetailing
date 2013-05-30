@@ -1,0 +1,17 @@
+﻿----------------------------
+LESS w node.js command line
+----------------------------
+
+cd "C:\Users\Shaun\Documents\@GitHub\SSIDetailing\ssidetailing\ssidetailing\assets-5\site\less"
+lessc -x bigfont.less > ../css/bigfont.css
+
+cd "C:\Users\Shaun\Documents\@GitHub\SSIDetailing\ssidetailing\ssidetailing\assets-5\bootstrap\less"
+lessc -x bootstrap.less > ../css/bootstrap.css 
+lessc -x responsive.less > ../css/responsive.css 
+
+----------------------------
+JS with windows command line
+----------------------------
+
+cd "C:\Users\Shaun\Documents\@GitHub\SSIDetailing\ssidetailing\ssidetailing\assets-5\site\js"
+jsmin <bigfont.js> bigfont.min.js
