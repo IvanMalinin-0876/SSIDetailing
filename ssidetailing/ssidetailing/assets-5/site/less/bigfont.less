@@ -2,6 +2,15 @@
 @import "../../bootstrap/less/variables.less"; // Modify this for custom colors, font-sizes, etc
 @import "../../bootstrap/less/mixins.less";
 
+div.marketing div.left-align {
+
+    text-align:left;
+
+}
+
+section {
+    padding-top: 30px;
+}
 
 div.navbar.navbar-inverse .brand {
     color: white;
@@ -16,9 +25,10 @@ div#myCarousel.carousel div.carousel-inner {
             div.carousel-caption {
                 #translucent.background(@color: black, @alpha: 0.75);
                 .border-radius(15px);
-                margin:0;
-                padding:0;
+                margin: auto;
+                padding: 0;
                 position: absolute;
+                text-align: center;
             }
         }
     }
@@ -34,4 +44,3 @@ div#myCarousel.carousel div.carousel-inner {
 @import "bigfont-responsive-768px-979px.less";
 // Phones to portrait tablets and narrow desktops
 @import "bigfont-responsive-767px-max.less";
-
