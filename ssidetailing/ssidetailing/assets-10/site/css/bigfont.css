@@ -2,7 +2,6 @@
 .clearfix:after{clear:both;}
 .hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
 .input-block-level{display:block;width:100%;min-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
-div.marketing div.left-align{text-align:left;}
 section{padding-top:30px;}
 div.navbar.navbar-inverse .brand{color:white;}
 div#myCarousel.carousel div.carousel-inner div.item img div.carousel-caption,div#myCarousel.carousel div.carousel-inner div.item div.container div.carousel-caption{background-color:rgba(0, 0, 0, 0.75);-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;margin:auto;padding:0;position:absolute;text-align:center;}
