@@ -242,6 +242,8 @@
     <Content Include="assets-5\site\img\cropped_wide\jetta_before_w300.jpg" />
     <Content Include="assets-5\site\img\cropped_wide\porshecayenne_after_w300.jpg" />
     <Content Include="assets-5\site\img\cropped_wide\%40porshe_after_w300.jpg" />
+    <Content Include="assets-5\site\img\logo\logo_car_front.png" />
+    <Content Include="assets-5\site\img\logo\logo_car_side.png" />
     <Content Include="assets-5\site\img\original\37fordtruck_after.jpg" />
     <Content Include="assets-5\site\img\original\greenjag_after.jpg" />
     <Content Include="assets-5\site\img\original\jeep2scratches_after.jpg" />
@@ -374,6 +376,10 @@
     <Content Include="assets-5\font-awesome\less\variables.less" />
     <Content Include="assets-5\site\less\bigfont.less" />
     <Content Include="assets-5\site\img\carousel\Thumbs.db" />
+    <Content Include="assets-5\site\img\logo\Thumbs.db" />
+    <Content Include="assets-5\site\less\bigfont-responsive-1200px-min.less" />
+    <Content Include="assets-5\site\less\bigfont-responsive-767px-max.less" />
+    <Content Include="assets-5\site\less\bigfont-responsive-768px-979px.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
