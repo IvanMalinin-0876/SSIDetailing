@@ -228,14 +228,20 @@
     <Content Include="assets-5\font-awesome\font\fontawesome-webfont.svg" />
     <Content Include="assets-5\site\css\bigfont.css" />
     <Content Include="assets-5\site\css\bootstrap-carousel-template.css" />
-    <Content Include="assets-5\site\img\cropped\37fordtruck_after_w300.jpg" />
-    <Content Include="assets-5\site\img\cropped\greenjag_after_w300.jpg" />
-    <Content Include="assets-5\site\img\cropped\jeep2scratches_after_w300.jpg" />
-    <Content Include="assets-5\site\img\cropped\jeep2scratches_before_w300.jpg" />
-    <Content Include="assets-5\site\img\cropped\jetta_after_w300.jpg" />
-    <Content Include="assets-5\site\img\cropped\jetta_before_w300.jpg" />
-    <Content Include="assets-5\site\img\cropped\porshecayenne_after_w300.jpg" />
-    <Content Include="assets-5\site\img\cropped\porshe_after_w300.jpg" />
+    <Content Include="assets-5\site\img\carousel\slide-1.png" />
+    <Content Include="assets-5\site\img\carousel\slide-3.png" />
+    <Content Include="assets-5\site\img\carousel\slide-2.png" />
+    <Content Include="assets-5\site\img\cropped_square\37fordtruck_after_512.png" />
+    <Content Include="assets-5\site\img\cropped_square\jetta_after_512.png" />
+    <Content Include="assets-5\site\img\cropped_square\porshe_after_512.png" />
+    <Content Include="assets-5\site\img\cropped_wide\%4037fordtruck_after_w300.jpg" />
+    <Content Include="assets-5\site\img\cropped_wide\greenjag_after_w300.jpg" />
+    <Content Include="assets-5\site\img\cropped_wide\jeep2scratches_after_w300.jpg" />
+    <Content Include="assets-5\site\img\cropped_wide\jeep2scratches_before_w300.jpg" />
+    <Content Include="assets-5\site\img\cropped_wide\%40jetta_after_w300.jpg" />
+    <Content Include="assets-5\site\img\cropped_wide\jetta_before_w300.jpg" />
+    <Content Include="assets-5\site\img\cropped_wide\porshecayenne_after_w300.jpg" />
+    <Content Include="assets-5\site\img\cropped_wide\%40porshe_after_w300.jpg" />
     <Content Include="assets-5\site\img\original\37fordtruck_after.jpg" />
     <Content Include="assets-5\site\img\original\greenjag_after.jpg" />
     <Content Include="assets-5\site\img\original\jeep2scratches_after.jpg" />
@@ -366,8 +372,8 @@
     <Content Include="assets-5\font-awesome\less\mixins.less" />
     <Content Include="assets-5\font-awesome\less\path.less" />
     <Content Include="assets-5\font-awesome\less\variables.less" />
-    <Content Include="assets-5\site\img\cropped\Thumbs.db" />
     <Content Include="assets-5\site\less\bigfont.less" />
+    <Content Include="assets-5\site\img\carousel\Thumbs.db" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

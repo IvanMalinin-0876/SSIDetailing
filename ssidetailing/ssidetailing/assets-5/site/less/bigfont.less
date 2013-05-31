@@ -1,1 +1,11 @@
-﻿
+﻿// Core variables and mixins from bootstrap
+@import "../../bootstrap/less/variables.less"; // Modify this for custom colors, font-sizes, etc
+@import "../../bootstrap/less/mixins.less";
+
+
+
+#myCarousel .carousel-caption {
+    #translucent.background(@color: black, @alpha: 0.75);
+    .border-radius(15px);
+    padding:50px;    
+}
