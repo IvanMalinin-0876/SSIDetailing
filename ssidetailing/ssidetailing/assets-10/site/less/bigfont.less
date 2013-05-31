@@ -2,12 +2,16 @@
 @import "../../bootstrap/less/variables.less"; // Modify this for custom colors, font-sizes, etc
 @import "../../bootstrap/less/mixins.less";
 
-section {
-    padding-top: 30px;
+div.navbar-wrapper > div.container > div.navbar > div.navbar-inner {
+    margin-left: 0; // to prevent horizontal scrollbar on smaller screens
+    margin-right: 0; // to prevent horizontal scrollbar on smaller screens
+    .brand {
+        color: white;
+    }
 }
 
-div.navbar.navbar-inverse .brand {
-    color: white;
+section {
+    padding-top: 30px;
 }
 
 div#myCarousel.carousel div.carousel-inner {
