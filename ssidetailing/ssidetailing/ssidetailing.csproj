@@ -380,6 +380,7 @@
     <Content Include="assets-5\site\less\bigfont-responsive-1200px-min.less" />
     <Content Include="assets-5\site\less\bigfont-responsive-767px-max.less" />
     <Content Include="assets-5\site\less\bigfont-responsive-768px-979px.less" />
+    <Content Include="assets-5\site\less\bigfont-responsive-980px-1199px.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
