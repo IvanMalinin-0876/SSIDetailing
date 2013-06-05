@@ -14,21 +14,41 @@ section {
     padding-top: 30px;
 }
 
-div#myCarousel.carousel div.carousel-inner {
+div#myCarousel.carousel {
 
-    div.item {
+    a.carousel-control {
+        top: 220px;
+    }
 
-        img, div.container {
+    div.carousel-inner {
 
-            div.carousel-caption {
-                #translucent.background(@color: black, @alpha: 0.75);
-                .border-radius(15px);
-                margin: auto;
-                padding: 0;
-                position: absolute;
-                text-align: center;
+        div.item {
+
+            img, div.container {
+
+                div.carousel-caption {
+                    #translucent.background(@color: black, @alpha: 0.75);
+                    .border-radius(15px);
+                    margin: auto;
+                    padding: 0;
+                    position: absolute;
+                    text-align: center;
+                }
             }
         }
+    }
+}
+
+
+
+ul.lead.icons-ul {
+    text-align: left;
+
+    > li {
+        border: thin solid silver;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
     }
 }
 
