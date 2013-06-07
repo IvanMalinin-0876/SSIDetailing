@@ -262,7 +262,84 @@
     <Content Include="assets-20\site\js\holder.js" />
     <Content Include="assets-20\site\js\html5shiv.js" />
     <Content Include="assets-20\site\js\jquery.js" />
+    <Content Include="assets-25\bootstrap\css\bootstrap.css" />
+    <Content Include="assets-25\bootstrap\css\responsive.css" />
+    <Content Include="assets-25\bootstrap\img\glyphicons-halflings-white.png" />
+    <Content Include="assets-25\bootstrap\img\glyphicons-halflings.png" />
+    <Content Include="assets-25\bootstrap\js\bootstrap-affix.js" />
+    <Content Include="assets-25\bootstrap\js\bootstrap-alert.js" />
+    <Content Include="assets-25\bootstrap\js\bootstrap-button.js" />
+    <Content Include="assets-25\bootstrap\js\bootstrap-carousel.js" />
+    <Content Include="assets-25\bootstrap\js\bootstrap-collapse.js" />
+    <Content Include="assets-25\bootstrap\js\bootstrap-dropdown.js" />
+    <Content Include="assets-25\bootstrap\js\bootstrap-modal.js" />
+    <Content Include="assets-25\bootstrap\js\bootstrap-popover.js" />
+    <Content Include="assets-25\bootstrap\js\bootstrap-scrollspy.js" />
+    <Content Include="assets-25\bootstrap\js\bootstrap-tab.js" />
+    <Content Include="assets-25\bootstrap\js\bootstrap-tooltip.js" />
+    <Content Include="assets-25\bootstrap\js\bootstrap-transition.js" />
+    <Content Include="assets-25\bootstrap\js\bootstrap-typeahead.js" />
+    <Content Include="assets-25\bootstrap\js\bootstrap.js" />
+    <Content Include="assets-25\bootstrap\js\bootstrap.min.js" />
+    <Content Include="assets-25\bootstrap\js\tests\index.html" />
+    <Content Include="assets-25\bootstrap\js\tests\phantom.js" />
+    <Content Include="assets-25\bootstrap\js\tests\server.js" />
+    <Content Include="assets-25\bootstrap\js\tests\unit\bootstrap-affix.js" />
+    <Content Include="assets-25\bootstrap\js\tests\unit\bootstrap-alert.js" />
+    <Content Include="assets-25\bootstrap\js\tests\unit\bootstrap-button.js" />
+    <Content Include="assets-25\bootstrap\js\tests\unit\bootstrap-carousel.js" />
+    <Content Include="assets-25\bootstrap\js\tests\unit\bootstrap-collapse.js" />
+    <Content Include="assets-25\bootstrap\js\tests\unit\bootstrap-dropdown.js" />
+    <Content Include="assets-25\bootstrap\js\tests\unit\bootstrap-modal.js" />
+    <Content Include="assets-25\bootstrap\js\tests\unit\bootstrap-phantom.js" />
+    <Content Include="assets-25\bootstrap\js\tests\unit\bootstrap-popover.js" />
+    <Content Include="assets-25\bootstrap\js\tests\unit\bootstrap-scrollspy.js" />
+    <Content Include="assets-25\bootstrap\js\tests\unit\bootstrap-tab.js" />
+    <Content Include="assets-25\bootstrap\js\tests\unit\bootstrap-tooltip.js" />
+    <Content Include="assets-25\bootstrap\js\tests\unit\bootstrap-transition.js" />
+    <Content Include="assets-25\bootstrap\js\tests\unit\bootstrap-typeahead.js" />
+    <Content Include="assets-25\bootstrap\js\tests\vendor\jquery.js" />
+    <Content Include="assets-25\bootstrap\js\tests\vendor\qunit.css" />
+    <Content Include="assets-25\bootstrap\js\tests\vendor\qunit.js" />
+    <Content Include="assets-25\bootstrap\less\tests\buttons.html" />
+    <Content Include="assets-25\bootstrap\less\tests\css-tests.css" />
+    <Content Include="assets-25\bootstrap\less\tests\css-tests.html" />
+    <Content Include="assets-25\bootstrap\less\tests\forms-responsive.html" />
+    <Content Include="assets-25\bootstrap\less\tests\forms.html" />
+    <Content Include="assets-25\bootstrap\less\tests\navbar-fixed-top.html" />
+    <Content Include="assets-25\bootstrap\less\tests\navbar-static-top.html" />
+    <Content Include="assets-25\bootstrap\less\tests\navbar.html" />
+    <Content Include="assets-25\font-awesome\css\font-awesome-ie7.css" />
+    <Content Include="assets-25\font-awesome\css\font-awesome-ie7.min.css" />
+    <Content Include="assets-25\font-awesome\css\font-awesome.css" />
+    <Content Include="assets-25\font-awesome\css\font-awesome.min.css" />
+    <Content Include="assets-25\font-awesome\font\fontawesome-webfont.svg" />
+    <Content Include="assets-25\site\css\bigfont.css" />
+    <Content Include="assets-25\site\css\bootstrap-carousel-template.css" />
+    <Content Include="assets-25\site\img\carousel\slide-1.png" />
+    <Content Include="assets-25\site\img\carousel\slide-2.png" />
+    <Content Include="assets-25\site\img\carousel\slide-3.png" />
+    <Content Include="assets-25\site\img\cropped_square\37fordtruck_after_512.png" />
+    <Content Include="assets-25\site\img\cropped_square\jetta_after_512.png" />
+    <Content Include="assets-25\site\img\cropped_square\porshe_after_512.png" />
+    <Content Include="assets-25\site\img\cropped_wide\%4037fordtruck_after_w300.jpg" />
+    <Content Include="assets-25\site\img\cropped_wide\%40jetta_after_w300.jpg" />
+    <Content Include="assets-25\site\img\cropped_wide\%40porshe_after_w300.jpg" />
+    <Content Include="assets-25\site\img\cropped_wide\greenjag_after_w300.jpg" />
+    <Content Include="assets-25\site\img\cropped_wide\jeep2scratches_after_w300.jpg" />
+    <Content Include="assets-25\site\img\cropped_wide\jeep2scratches_before_w300.jpg" />
+    <Content Include="assets-25\site\img\cropped_wide\jetta_before_w300.jpg" />
+    <Content Include="assets-25\site\img\cropped_wide\porshecayenne_after_w300.jpg" />
+    <Content Include="assets-25\site\img\logo\logo_car_front.png" />
+    <Content Include="assets-25\site\js\bigfont.js" />
+    <Content Include="assets-25\site\js\bigfont.min.js" />
+    <Content Include="assets-25\site\js\google-code-prettify\prettify.css" />
+    <Content Include="assets-25\site\js\google-code-prettify\prettify.js" />
+    <Content Include="assets-25\site\js\holder.js" />
+    <Content Include="assets-25\site\js\html5shiv.js" />
+    <Content Include="assets-25\site\js\jquery.js" />
     <Content Include="index.html" />
+    <Content Include="q.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -384,6 +461,67 @@
     <Content Include="assets-20\site\less\bigfont-responsive-767px-max.less" />
     <Content Include="assets-20\site\less\bigfont-responsive-768px-979px.less" />
     <Content Include="assets-20\site\less\bigfont-responsive-980px-1199px.less" />
+    <Content Include="assets-25\bootstrap\img\Thumbs.db" />
+    <Content Include="assets-25\bootstrap\js\.jshintrc" />
+    <Content Include="assets-25\bootstrap\less\accordion.less" />
+    <Content Include="assets-25\bootstrap\less\alerts.less" />
+    <Content Include="assets-25\bootstrap\less\bootstrap.less" />
+    <Content Include="assets-25\bootstrap\less\breadcrumbs.less" />
+    <Content Include="assets-25\bootstrap\less\button-groups.less" />
+    <Content Include="assets-25\bootstrap\less\buttons.less" />
+    <Content Include="assets-25\bootstrap\less\carousel.less" />
+    <Content Include="assets-25\bootstrap\less\close.less" />
+    <Content Include="assets-25\bootstrap\less\code.less" />
+    <Content Include="assets-25\bootstrap\less\component-animations.less" />
+    <Content Include="assets-25\bootstrap\less\dropdowns.less" />
+    <Content Include="assets-25\bootstrap\less\forms.less" />
+    <Content Include="assets-25\bootstrap\less\grid.less" />
+    <Content Include="assets-25\bootstrap\less\hero-unit.less" />
+    <Content Include="assets-25\bootstrap\less\labels-badges.less" />
+    <Content Include="assets-25\bootstrap\less\layouts.less" />
+    <Content Include="assets-25\bootstrap\less\media.less" />
+    <Content Include="assets-25\bootstrap\less\mixins.less" />
+    <Content Include="assets-25\bootstrap\less\modals.less" />
+    <Content Include="assets-25\bootstrap\less\navbar.less" />
+    <Content Include="assets-25\bootstrap\less\navs.less" />
+    <Content Include="assets-25\bootstrap\less\pager.less" />
+    <Content Include="assets-25\bootstrap\less\pagination.less" />
+    <Content Include="assets-25\bootstrap\less\popovers.less" />
+    <Content Include="assets-25\bootstrap\less\progress-bars.less" />
+    <Content Include="assets-25\bootstrap\less\reset.less" />
+    <Content Include="assets-25\bootstrap\less\responsive-1200px-min.less" />
+    <Content Include="assets-25\bootstrap\less\responsive-767px-max.less" />
+    <Content Include="assets-25\bootstrap\less\responsive-768px-979px.less" />
+    <Content Include="assets-25\bootstrap\less\responsive-navbar.less" />
+    <Content Include="assets-25\bootstrap\less\responsive-utilities.less" />
+    <Content Include="assets-25\bootstrap\less\responsive.less" />
+    <Content Include="assets-25\bootstrap\less\scaffolding.less" />
+    <Content Include="assets-25\bootstrap\less\sprites.less" />
+    <Content Include="assets-25\bootstrap\less\tables.less" />
+    <Content Include="assets-25\bootstrap\less\thumbnails.less" />
+    <Content Include="assets-25\bootstrap\less\tooltip.less" />
+    <Content Include="assets-25\bootstrap\less\type.less" />
+    <Content Include="assets-25\bootstrap\less\utilities.less" />
+    <Content Include="assets-25\bootstrap\less\variables.less" />
+    <Content Include="assets-25\bootstrap\less\wells.less" />
+    <Content Include="assets-25\font-awesome\font\fontawesome-webfont.eot" />
+    <Content Include="assets-25\font-awesome\font\fontawesome-webfont.ttf" />
+    <Content Include="assets-25\font-awesome\font\fontawesome-webfont.woff" />
+    <Content Include="assets-25\font-awesome\font\FontAwesome.otf" />
+    <Content Include="assets-25\font-awesome\less\bootstrap.less" />
+    <Content Include="assets-25\font-awesome\less\core.less" />
+    <Content Include="assets-25\font-awesome\less\extras.less" />
+    <Content Include="assets-25\font-awesome\less\font-awesome-ie7.less" />
+    <Content Include="assets-25\font-awesome\less\font-awesome.less" />
+    <Content Include="assets-25\font-awesome\less\icons.less" />
+    <Content Include="assets-25\font-awesome\less\mixins.less" />
+    <Content Include="assets-25\font-awesome\less\path.less" />
+    <Content Include="assets-25\font-awesome\less\variables.less" />
+    <Content Include="assets-25\site\less\bigfont-responsive-1200px-min.less" />
+    <Content Include="assets-25\site\less\bigfont-responsive-767px-max.less" />
+    <Content Include="assets-25\site\less\bigfont-responsive-768px-979px.less" />
+    <Content Include="assets-25\site\less\bigfont-responsive-980px-1199px.less" />
+    <Content Include="assets-25\site\less\bigfont.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -391,7 +529,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="assets-25\site\img\original\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
