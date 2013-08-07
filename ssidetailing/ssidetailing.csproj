@@ -144,7 +144,9 @@
     <Content Include="assets-25\site\js\jquery.js" />
     <Content Include="assets-25\site\js\jsmin.exe" />
     <Content Include="index.html" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
