@@ -2,7 +2,7 @@
 LESS w node.js command line
 ----------------------------
 
-cd "C:\Users\Shaun\Documents\GitHub\SSIDetailing\ssidetailing\ssidetailing\assets-25\site\less"
+cd "C:\Users\Shaun\Documents\GitHub\SSIDetailing\ssidetailing\assets-25\site\less"
 lessc -x bigfont.less > ../css/bigfont.css
 
 cd "C:\Users\Shaun\Documents\GitHub\SSIDetailing\ssidetailing\ssidetailing\assets-25\bootstrap\less"
