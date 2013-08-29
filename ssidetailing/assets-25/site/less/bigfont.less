@@ -11,6 +11,29 @@
 }
 
 
+
+.position-absolute-and-center(@width) {
+    background:yellow;
+    position: absolute;
+    left: 50%;
+    margin-left: -(@width / 2);
+    width: @width;
+}
+
+
+
+
+.marketing section {
+    padding-top: 30px;
+    text-align: center;
+
+    h1 {
+        margin-bottom:25px;
+    }
+}
+
+
+
 div.navbar-wrapper > div.container > div.navbar > div.navbar-inner {
     margin-left: 0; // to prevent horizontal scrollbar on smaller screens
     margin-right: 0; // to prevent horizontal scrollbar on smaller screens
@@ -19,45 +42,68 @@ div.navbar-wrapper > div.container > div.navbar > div.navbar-inner {
     }
 }
 
-section {
-    padding-top: 30px;
-}
+
 
 div#myCarousel.carousel {
 
     a.carousel-control {
         top: 220px;
     }
-
-    div.carousel-inner {
-
-        div.item {
-
-            img, div.container {
-
-                div.carousel-caption {
-                    #translucent.background(@color: black, @alpha: 0.75);
-                    .border-radius(15px);
-                    margin: auto;
-                    padding: 0;
-                    position: absolute;
-                    text-align: center;
-                }
-            }
-        }
-    }
 }
 
 
 
-ul.lead.icons-ul {
-    text-align: left;
+#carousel-overlay {
+    /*height: auto;*/
+    top: 200px;
+    .position-absolute-and-center(400px);
+    #translucent.background(@color: black, @alpha: 0.75);
+    .border-radius(15px);
+    color:white;
+    font-weight:900;
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
 
-    > li {
-        border: thin solid silver;
-        border-radius: 5px;
-        margin-bottom: 5px;
-        padding: 5px;
+
+
+
+div.package {
+
+    img {
+        margin-bottom: 25px;
+    }
+
+    ul {
+        text-align: left;
+
+        > li {
+            margin: 5px;
+            padding: 5px;
+        }
+    }
+
+    dl.dl-horizontal {
+
+        * {
+            // reset the top and bottom margins
+            // this allows us full control
+            padding-top: 0;
+            padding-bottom: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+
+        > dd {
+            text-align: left;
+            margin-bottom: 20px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
     }
 }
 

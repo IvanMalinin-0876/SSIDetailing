@@ -52,46 +52,12 @@
         <div class="carousel-inner">
             <div class="item active">
                 <img src="assets-25/site/img/carousel/slide-1.png" />
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>#1 Basic Exterior</h1>
-                        <ul class="lead unstyled">
-                            <li>Wash & Dry</li>
-                            <li>Approx time 1/2 hours</li>
-                            <li>Starts at $20</li>
-                        </ul>
-                        <a class="btn btn-large btn-primary" href="#contact">Contact us today.</a>
-                    </div>
-                </div>
             </div>
             <div class="item">
                 <img src="assets-25/site/img/carousel/slide-2.png" />
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>#2 Basic Interior</h1>
-                        <ul class="lead unstyled">
-                            <li>Approx time 1 1/2 hours</li>
-                            <li>Starts at $60</li>
-                        </ul>
-                        <a class="btn btn-large btn-primary" href="#contact">Contact us today.</a>
-                    </div>
-                </div>
             </div>
             <div class="item">
                 <img src="assets-25/site/img/carousel/slide-3.png" />
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>#3 The Ultimate</h1>
-                        <ul class="lead unstyled">
-                            <li>Interior/exterior</li>
-                            <li>Clean, polish, wax, and protection</li>
-                            <li>Full carpet hot extraction shampoo</li>
-                            <li>Approx time 7 hours</li>
-                            <li>Starts at $300</li>
-                        </ul>
-                        <a class="btn btn-large btn-primary" href="#contact">Contact us today.</a>
-                    </div>
-                </div>
             </div>
         </div>
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
@@ -103,17 +69,32 @@
 
 
 
+    <!-- Carousel Overlay
+    ================================================== -->
+
+    <div id="carousel-overlay">
+
+        <div class="btn-group btn-group-vertical">
+            <a href="#contact" class="btn btn-primary">Contact Us</a>
+            <a href="#price-list" class="btn btn-primary">View Price List</a>
+            <a href="#hero" class="btn btn-primary">Leave the details to us.</a>
+        </div>
+
+    </div>
+
+
+
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
+        <section id="contact">
 
-        <div class="row">
+            <div class="row">
 
-            <div class="span6 offset3">
-                <section id="contact">
+                <div class="span6 offset3">
                     <h1>Contact Us</h1>
                     <address class="well lead">
                         <strong>SSI Detailing / Gulf Island Detailing</strong><br />
@@ -123,129 +104,164 @@
                         <a href="tel:1-250-538-7865">(250) 538-7865</a><br />
                         <a href="mailto:marshalldetailing@gmail.com"><span>marshalldetailing</span><span>@gmail.com</span></a><br />
                     </address>
-                </section>
-            </div>
+                </div>
 
-        </div>
+            </div>
+        </section>
+
         <hr class="featurette-divider">
 
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-            <div class="span6">
-                <img class="img-circle img-polaroid" src="assets-25/site/img/cropped_wide/greenjag_after_w300.png" />
-                <h2>#1 Exterior & Interior Wash & Dry</h2>
-                <ul class="lead icons-ul">
-                    <li><i class="icon-li icon-ok"></i>Vacuum & Wash</li>
-                    <li><i class="icon-li icon-ok"></i>Tires</li>
-                    <li><i class="icon-li icon-ok"></i>Mags</li>
-                    <li><i class="icon-li icon-ok"></i>Doors Jams</li>
-                    <li><i class="icon-li icon-ok"></i>Windows</li>
-                    <li><i class="icon-li icon-ok"></i>Console</li>
-                </ul>
-                <div class="well well-small">
-                    <dl class="dl-horizontal">
-                        <dt>Car</dt>
-                        <dd>$40</dd>
-                        <dt>SUV</dt>
-                        <dd>$50</dd>
-                        <dt>Truck</dt>
-                        <dd>$60</dd>
-                        <dt>Oversize</dt>
-                        <dd>$70 and up</dd>
-                    </dl>
+
+        <section id="price-list">
+            <h1>Price List</h1>
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="span6">
+                    <div class="package img-polaroid img-rounded">
+                        <h2>#1 Exterior & Interior
+                        <br />
+                            Wash & Dry</h2>
+                        <img class="img-circle img-polaroid" src="assets-25/site/img/cropped_wide/greenjag_after_w300.png" />
+                        <ul class="icons-ul">
+                            <li><i class="icon-li icon-ok"></i>Vacuum & Wash</li>
+                            <li><i class="icon-li icon-ok"></i>Tires</li>
+                            <li><i class="icon-li icon-ok"></i>Mags</li>
+                            <li><i class="icon-li icon-ok"></i>Doors Jams</li>
+                            <li><i class="icon-li icon-ok"></i>Windows</li>
+                            <li><i class="icon-li icon-ok"></i>Console</li>
+                        </ul>
+                        <div class="well well-small">
+                            <dl class="dl-horizontal">
+                                <dt>Car</dt>
+                                <dd>$40</dd>
+                                <dt>SUV</dt>
+                                <dd>$50</dd>
+                                <dt>Truck</dt>
+                                <dd>$60</dd>
+                                <dt>Oversize</dt>
+                                <dd>$70 and up</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.span6 -->
+                <div class="span6">
+                    <div class="package img-polaroid img-rounded">
+
+                        <h2>#2 Polish & Wax</h2>
+
+                        <img class="img-circle img-polaroid" src="assets-25/site/img/cropped_wide/porshecayenne_after_w300.png" />
+                        <ul class="icons-ul">
+                            <li><i class="icon-li icon-ok"></i>Removes surfaces scratches & restores faded paint</li>
+                            <li><i class="icon-li icon-ok"></i>We start by completing two separate detail washes. </li>
+                            <li><i class="icon-li icon-ok"></i>This removes all rubble, rocks, and tree sap.</li>
+                            <li><i class="icon-li icon-ok"></i>Then we buff the scratches out with a polish. </li>
+                            <li><i class="icon-li icon-ok"></i>Once we have thoroughly wiped the vehicle, we hand wax the surface & finalize any chrome & trim to perfection.</li>
+                            <li><i class="icon-li icon-ok"></i>We remove rubble and rock pieces before we wax so that we do not scratch the paint</li>
+                        </ul>
+                        <aside>
+                            <p><span class="label label-info">Tip:</span> WE DO NOT USE PRESSURE WASHERS</p>
+                            <p>Pressure washing your vehicle breaks the window/headlight seal, which causes leaks and moisture issues.</p>
+                        </aside>
+                        <div class="well well-small">
+                            <dl class="dl-horizontal">
+                                <dt>Car</dt>
+                                <dd>$300 inclusive</dd>
+                                <dt>SUV</dt>
+                                <dd>$450</dd>
+                                <dt>Van</dt>
+                                <dd>$600</dd>
+                                <dt>Truck</dt>
+                                <dd>
+                                    <ul class="unstyled">
+                                        <li>$600 - $700</li>
+                                        <li>depending on size</li>
+                                    </ul>
+                                </dd>
+                                <dt>Oversize & RVs</dt>
+                                <dd>Negotiable by size</dd>
+                                <dt>Boats</dt>
+                                <dd>We estimate these after getting the size and meticulous details.</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.span6 -->
+            </div>
+            <!-- /.row -->
+
+            <hr />
+
+            <div class="row">
+                <div class="span6">
+                    <div class="package img-polaroid img-rounded">
+
+                        <h2>#3 Five Step Leather Treatment</h2>
+
+                        <img class="img-circle img-polaroid" src="assets-25/site/img/cropped_wide/jeep2scratches_after_w300.png" />
+                        <ul class="icons-ul">
+                            <li><i class="icon-li icon-ok"></i>This restores and prevents cracking to seats and dash areas.</li>
+                            <li><i class="icon-li icon-ok"></i>Shampooing is recommended, if you care about your health.</li>
+                        </ul>
+                        <div class="well well-small">
+                            <p>Contact us for pricing</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.span6 -->
+                <div class="span6">
+                    <div class="package img-polaroid img-rounded">
+
+                        <h2>#4 Mobile Boat Work</h2>
+
+                        <img class="img-circle img-polaroid" src="assets-25/site/img/cropped_wide/jeep2scratches_after_w300.png" />
+                        <ul class="icons-ul">
+                            <li><i class="icon-li icon-ok"></i>
+                                Complete waterline up detailing inside and out
+                            </li>
+                            <li><i class="icon-li icon-ok"></i>
+                                Waxing, polishing, buffing
+                            </li>
+                            <li><i class="icon-li icon-ok"></i>
+                                Metal polishing
+                            </li>
+                            <li><i class="icon-li icon-ok"></i>
+                                Spring boat cleaning
+                            </li>
+                            <li><i class="icon-li icon-ok"></i>
+                                Winter boat cleaning
+                            </li>
+                            <li><i class="icon-li icon-ok"></i>
+                                Storage preparation
+                            </li>
+                        </ul>
+                        <div class="well well-small">
+                            <dl class="dl-horizontal">
+                                <dt>Detailing & Waxing</dt>
+                                <dd>$25 / foot</dd>
+                                <dt>Interior & Exterior</dt>
+                                <dd>Flat rate</dd>
+                            </dl>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- /.span6 -->
-            <div class="span6">
-                <img class="img-circle img-polaroid" src="assets-25/site/img/cropped_wide/porshecayenne_after_w300.png" />
-                <h2>#2 Polish & Wax</h2>
-                <ul class="lead icons-ul">
-                    <li><i class="icon-li icon-ok"></i>Removes surfaces scratches & restores faded paint</li>
-                    <li><i class="icon-li icon-ok"></i>We start by completing two separate detail washes. </li>
-                    <li><i class="icon-li icon-ok"></i>This removes all rubble, rocks, and tree sap.</li>
-                    <li><i class="icon-li icon-ok"></i>Then we buff the scratches out with a polish. </li>
-                    <li><i class="icon-li icon-ok"></i>Once we have thoroughly wiped the vehicle, we hand wax the surface & finalize any chrome & trim to perfection.</li>
-                    <li><i class="icon-li icon-ok"></i>We remove rubble and rock pieces before we wax so that we do not scratch the paint</li>
-                </ul>
-                <aside>
-                    <p><span class="label label-info">Tip:</span> WE DO NOT USE PRESSURE WASHERS</p>
-                    <p>Pressure washing your vehicle breaks the window/headlight seal, which causes leaks and moisture issues.</p>
-                </aside>
-                <div class="well well-small">
-                    <dl class="dl-horizontal">
-                        <dt>Car</dt>
-                        <dd>$300 inclusive</dd>
-                        <dt>SUV</dt>
-                        <dd>$450</dd>
-                        <dt>Van</dt>
-                        <dd>$600</dd>
-                        <dt>Truck</dt>
-                        <dd>$600 - $700</dd>
-                        <dd>depending on size</dd>
-                        <dt>Oversize & RVs</dt>
-                        <dd>Negotiable by size</dd>
-                        <dt>Boats</dt>
-                        <dd>We estimate these after getting the size and meticulous details.</dd>
-                    </dl>
-                </div>
+
+        </section>
+
+        <hr />
+
+        <section id="hero">
+            <div class="hero-unit">
+                <h1>Leave the details to us.</h1>
+                <p>
+                    Call today to book your boat to get professionally detailed!
+                </p>
             </div>
-            <!-- /.span6 -->
-        </div>
-        <!-- /.row -->
+        </section>
 
-        <div class="row">
-            <div class="span6">
-                <img class="img-circle img-polaroid" src="assets-25/site/img/cropped_wide/jeep2scratches_after_w300.png" />
-                <h2>#3 Five Step Leather Treatment</h2>
-                <ul class="lead icons-ul">
-                    <li><i class="icon-li icon-ok"></i>This restores and prevents cracking to seats and dash areas.</li>
-                    <li><i class="icon-li icon-ok"></i>Shampooing is recommended, if you care about your health.</li>
-                </ul>
-            </div>
-            <!-- /.span6 -->
-            <div class="span6">
-                <img class="img-circle img-polaroid" src="assets-25/site/img/cropped_wide/jeep2scratches_after_w300.png" />
-                <h2>Mobile Boat Work</h2>
-                <ul class="lead icons-ul">
-                    <li><i class="icon-li icon-ok"></i>
-                        Complete waterline up detailing inside and out
-                    </li>
-                    <li><i class="icon-li icon-ok"></i>
-                        Waxing, polishing, buffing
-                    </li>
-                    <li><i class="icon-li icon-ok"></i>
-                        Metal polishing
-                    </li>
-                    <li><i class="icon-li icon-ok"></i>
-                        Spring boat cleaning
-                    </li>
-                    <li><i class="icon-li icon-ok"></i>
-                        Winter boat cleaning
-                    </li>
-                    <li><i class="icon-li icon-ok"></i>
-                        Storage preparation
-                    </li>
-                </ul>
-                <div class="well well-small">
-                    <dl class="dl-horizontal">
-                        <dt>Detailing & Waxing</dt>
-                        <dd>$25 / foot</dd>
-                        <dt>Interior & Exterior</dt>
-                        <dd>Flat rate</dd>
-                    </dl>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="hero-unit">
-            <h1>Leave the details to us.</h1>
-            <p>
-                Call today to book your boat to get professionally detailed!
-            </p>
-        </div>
-
+        <hr />
 
         <!-- START THE FEATURETTES -->
 
