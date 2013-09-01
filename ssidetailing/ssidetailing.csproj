@@ -118,12 +118,12 @@
     <Content Include="assets-25\site\img\cropped_square\37fordtruck_after_512.png" />
     <Content Include="assets-25\site\img\cropped_square\jetta_after_512.png" />
     <Content Include="assets-25\site\img\cropped_square\porshe_after_512.png" />
-    <Content Include="assets-25\site\img\cropped_wide\%4037fordtruck_after_w300.jpg" />
-    <Content Include="assets-25\site\img\cropped_wide\%4037fordtruck_after_w300.png" />
-    <Content Include="assets-25\site\img\cropped_wide\%40jetta_after_w300.jpg" />
-    <Content Include="assets-25\site\img\cropped_wide\%40jetta_after_w300.png" />
-    <Content Include="assets-25\site\img\cropped_wide\%40porshe_after_w300.jpg" />
-    <Content Include="assets-25\site\img\cropped_wide\%40porshe_after_w300.png" />
+    <Content Include="assets-25\site\img\cropped_wide\37fordtruck_after_w300.jpg" />
+    <Content Include="assets-25\site\img\cropped_wide\37fordtruck_after_w300.png" />
+    <Content Include="assets-25\site\img\cropped_wide\jetta_after_w300.jpg" />
+    <Content Include="assets-25\site\img\cropped_wide\jetta_after_w300.png" />
+    <Content Include="assets-25\site\img\cropped_wide\porshe_after_w300.jpg" />
+    <Content Include="assets-25\site\img\cropped_wide\porshe_after_w300.png" />
     <Content Include="assets-25\site\img\cropped_wide\greenjag_after_w300.jpg" />
     <Content Include="assets-25\site\img\cropped_wide\greenjag_after_w300.png" />
     <Content Include="assets-25\site\img\cropped_wide\jeep2scratches_after_w300.jpg" />
@@ -132,6 +132,7 @@
     <Content Include="assets-25\site\img\cropped_wide\jeep2scratches_before_w300.png" />
     <Content Include="assets-25\site\img\cropped_wide\jetta_before_w300.jpg" />
     <Content Include="assets-25\site\img\cropped_wide\jetta_before_w300.png" />
+    <Content Include="assets-25\site\img\cropped_wide\oldboat_w300.jpg" />
     <Content Include="assets-25\site\img\cropped_wide\porshecayenne_after_w300.jpg" />
     <Content Include="assets-25\site\img\cropped_wide\porshecayenne_after_w300.png" />
     <Content Include="assets-25\site\img\logo\logo_car_front.png" />
