@@ -36,65 +36,46 @@
     -------------------------------------------------- */
 
 /* Carousel base class */
-.carousel {
+div#myCarousel.carousel {
     margin-bottom: 0;
-}
 
-    .carousel .container {
+    > div.carousel-inner {
         position: relative;
         z-index: 9;
+
+
+        > div.item {
+
+            > img {
+                width: 100%;
+            }
+        }
     }
 
-.carousel-control {
-    height: 80px;
-    margin-top: 0;
-    font-size: 120px;
-    text-shadow: 0 1px 1px rgba(0,0,0,.4);
-    background-color: transparent;
-    border: 0;
-    z-index: 10;
-}
-
-.carousel .item {
-    height: 500px;
-}
-
-.carousel img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 500px;
-}
-
-.carousel-caption {
-    background-color: transparent;
-    position: static;
-    max-width: 550px;
-    padding: 0 20px;
-    margin-top: 200px;
-}
-
-    .carousel-caption h1,
-    .carousel-caption .lead {
+    > a.carousel-control {
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-size: 300px;
+        height: auto;
+        line-height: 300px;
         margin: 0;
-        line-height: 1.25;
-        color: #fff;
-        text-shadow: 0 1px 1px rgba(0,0,0,.4);
-    }
+        opacity: 0.75;
+        overflow: hidden;
+        padding: 0;
+        vertical-align: middle;
+        width: auto;
+        z-index: 100;
 
-    .carousel-caption .btn {
-        margin-top: 10px;
-    }
+        &.left {
+            left: 0px;
+        }
 
-
-div#myCarousel.carousel {
-
-    a.carousel-control {
-        top: 220px;
+        &.right {
+            right: 0px;
+        }
     }
 }
-
 
 /* MARKETTING CONTAINER AND CONTENTS
     -------------------------------------------------- */
@@ -107,8 +88,7 @@ div#myCarousel.carousel {
 
 
     div.package {
-
-        margin-bottom:30px;
+        margin-bottom: 30px;
 
         img {
             margin-bottom: 25px;
@@ -211,7 +191,7 @@ div.navbar-wrapper > div > div.navbar > div.navbar-inner {
     margin-left: 0; // to prevent horizontal scrollbar on smaller screens
     margin-right: 0; // to prevent horizontal scrollbar on smaller screens
     .brand {
-        color:white;
+        color: white;
     }
 }
 

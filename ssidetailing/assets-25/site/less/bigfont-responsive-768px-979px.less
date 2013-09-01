@@ -19,8 +19,7 @@
                 margin: 0 -20px;
 
                 > div.navbar-inner {
-
-                    padding:0;
+                    padding: 0;
 
                     > a.brand {
                         display: block;
@@ -41,24 +40,20 @@
         }
     }
 
+    div#myCarousel.carousel {
+        margin-left: -20px;
+        margin-right: -20px;
 
-    div#myCarousel.carousel div.carousel-inner {
+        > a.carousel-control {
+            top: -50px;
 
-        div.item {
-            height: 500px;
-
-            img, div.container {
-                height: 500px;
-
-                div.carousel-caption {
-                    padding: 50px;
-                    bottom: 50px;
-                }
+            &.left {
+                left: 30px;
             }
-        }
 
-        .carousel img {
-            width: auto;
+            &.right {
+                right: 30px;
+            }
         }
     }
 
