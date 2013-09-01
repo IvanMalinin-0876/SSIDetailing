@@ -7,7 +7,7 @@ div#myCarousel.carousel{margin-bottom:0;}div#myCarousel.carousel>div.carousel-in
 div#myCarousel.carousel>a.carousel-control{background-color:transparent;border:none;color:black;font-size:300px;height:auto;line-height:300px;margin:0;opacity:0.75;overflow:hidden;padding:0;vertical-align:middle;width:auto;z-index:100;}div#myCarousel.carousel>a.carousel-control.left{left:0px;}
 div#myCarousel.carousel>a.carousel-control.right{right:0px;}
 .marketing section{padding-top:30px;}.marketing section h1{margin-bottom:25px;}
-.marketing section div.package{margin-bottom:30px;}.marketing section div.package img{margin-bottom:25px;}
+.marketing section div.package{margin-bottom:30px;}.marketing section div.package img{margin-bottom:25px;max-width:90%;}
 .marketing section div.package ul>li{text-align:left;margin:5px;padding:5px;}
 .marketing section div.package dl.dl-horizontal *{padding-top:0;padding-bottom:0;margin-top:0;margin-bottom:0;}
 .marketing section div.package dl.dl-horizontal>dt{text-align:left;border-bottom:dashed;border-bottom-color:black;border-bottom-width:1px;}
