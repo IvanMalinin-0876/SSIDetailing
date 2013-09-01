@@ -13,8 +13,7 @@
 .carousel-caption .btn{margin-top:10px;}
 div#myCarousel.carousel a.carousel-control{top:220px;}
 .marketing section{padding-top:30px;}.marketing section h1{margin-bottom:25px;}
-.marketing section div.package .package-title-and-image{height:360px;}
-.marketing section div.package img{margin-bottom:25px;}
+.marketing section div.package{margin-bottom:30px;}.marketing section div.package img{margin-bottom:25px;}
 .marketing section div.package ul>li{text-align:left;margin:5px;padding:5px;}
 .marketing section div.package dl.dl-horizontal *{padding-top:0;padding-bottom:0;margin-top:0;margin-bottom:0;}
 .marketing section div.package dl.dl-horizontal>dt{text-align:left;border-bottom:dashed;border-bottom-color:black;border-bottom-width:1px;}
