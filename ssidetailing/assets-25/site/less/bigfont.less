@@ -1,7 +1,10 @@
-﻿// Core variables and mixins from bootstrap
-@import "../../bootstrap/less/variables.less"; // Modify this for custom colors, font-sizes, etc
+﻿/* BOOTSTRAP VARIABLES AND MIXINS
+    -----------------------------------------------*/
+@import "../../bootstrap/less/variables.less";
 @import "../../bootstrap/less/mixins.less";
 
+/* IE MOBILE
+    -------------------------------------------------*/
 
 // override the bootstrap @-ms-viewport
 // because setting device-width
@@ -11,37 +14,78 @@
 }
 
 
-
-.position-absolute-and-center(@width) {
-    background:yellow;
+/* MIXINS
+    --------------------------------------------------*/
+.absolute-center(@width) {
+    background: yellow;
     position: absolute;
     left: 50%;
     margin-left: -(@width / 2);
     width: @width;
 }
 
-
-
-
-.marketing section {
-    padding-top: 30px;
+/* ALL ELEMENTS DEFAULTS
+    --------------------------------------------------*/
+* {
     text-align: center;
-
-    h1 {
-        margin-bottom:25px;
-    }
 }
 
 
 
-div.navbar-wrapper > div.container > div.navbar > div.navbar-inner {
-    margin-left: 0; // to prevent horizontal scrollbar on smaller screens
-    margin-right: 0; // to prevent horizontal scrollbar on smaller screens
-    .brand {
-        color: white;
-    }
+/* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 0;
 }
 
+    .carousel .container {
+        position: relative;
+        z-index: 9;
+    }
+
+.carousel-control {
+    height: 80px;
+    margin-top: 0;
+    font-size: 120px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    background-color: transparent;
+    border: 0;
+    z-index: 10;
+}
+
+.carousel .item {
+    height: 500px;
+}
+
+.carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+.carousel-caption {
+    background-color: transparent;
+    position: static;
+    max-width: 550px;
+    padding: 0 20px;
+    margin-top: 200px;
+}
+
+    .carousel-caption h1,
+    .carousel-caption .lead {
+        margin: 0;
+        line-height: 1.25;
+        color: #fff;
+        text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+
+    .carousel-caption .btn {
+        margin-top: 10px;
+    }
 
 
 div#myCarousel.carousel {
@@ -52,66 +96,113 @@ div#myCarousel.carousel {
 }
 
 
+/* MARKETTING CONTAINER AND CONTENTS
+    -------------------------------------------------- */
+.marketing section {
+    padding-top: 30px;
 
-#carousel-overlay {
-    /*height: auto;*/
-    top: 200px;
-    .position-absolute-and-center(400px);
-    #translucent.background(@color: black, @alpha: 0.75);
-    .border-radius(15px);
-    color:white;
-    font-weight:900;
-    text-align:center;
-    padding-top:20px;
-    padding-bottom:20px;
-}
-
-
-
-
-div.package {
-
-    img {
+    h1 {
         margin-bottom: 25px;
     }
 
-    ul {
-        text-align: left;
 
-        > li {
-            margin: 5px;
-            padding: 5px;
-        }
-    }
+    div.package {
 
-    dl.dl-horizontal {
-
-        * {
-            // reset the top and bottom margins
-            // this allows us full control
-            padding-top: 0;
-            padding-bottom: 0;
-            margin-top: 0;
-            margin-bottom: 0;
+        img {
+            margin-bottom: 25px;
         }
 
-
-        > dd {
+        ul {
             text-align: left;
-            margin-bottom: 20px;
 
-            &:last-child {
+            > li {
+                margin: 5px;
+                padding: 5px;
+            }
+        }
+
+        dl.dl-horizontal {
+
+            * {
+                // reset the top and bottom margins
+                // this allows us full control
+                padding-top: 0;
+                padding-bottom: 0;
+                margin-top: 0;
                 margin-bottom: 0;
+            }
+
+
+            > dd {
+                text-align: left;
+                margin-bottom: 20px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
             }
         }
     }
+
+
+    a span {
+        // wrap long links
+        display: inline-block;
+    }
+}
+
+/* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    margin-top: 20px;
+    margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+}
+
+.navbar-wrapper-bottom {
+}
+
+/* Remove border and change up box shadow for more contrast */
+.navbar .navbar-inner {
+    border: 0;
+    -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    box-shadow: 0 2px 10px rgba(0,0,0,.25);
+}
+
+/* Downsize the brand/project name a bit */
+.navbar .brand {
+    padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+
+/* Navbar links: increase padding for taller navbar */
+.navbar .nav > li > a {
+    padding: 15px 20px;
+    color: white;
+}
+
+/* Offset the responsive button for proper vertical alignment */
+.navbar .btn-navbar {
+    margin-top: 10px;
+}
+
+div.navbar-wrapper > div > div.navbar > div.navbar-inner {
+    margin-left: 0; // to prevent horizontal scrollbar on smaller screens
+    margin-right: 0; // to prevent horizontal scrollbar on smaller screens
+    .brand {
+    }
 }
 
 
-a span {
-    // wrap long links
-    display: inline-block;
-}
 
 
 

@@ -5,26 +5,72 @@
 
 @media (max-width: 767px) {
 
-    div#myCarousel.carousel div.carousel-inner {
 
-        div.item {
-            height: 300px;
+    div.navbar-wrapper {
 
-            img, div.container {
-                height: 300px;
+        > div.container-fluid {
+
+            > div.navbar {
+
+                > div.navbar-inner {
 
 
-                div.carousel-caption {
-                    bottom: 15px;
-                    padding: 15px 0;
-                    width: 100%;
+                    > a.brand {                        
+                                padding:5px 0;
+                    }
+
+                    > ul {
+
+                        > li {
+                            float: none;
+
+                            > a {
+                                padding:5px 0;
+                            }
+                        }
+                    }
                 }
             }
         }
     }
 
-    #carousel-overlay {
-        top: 100px;
+    div#myCarousel.carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+
+        div.carousel-inner {
+
+            div.item {
+                height: 300px;
+
+                img, div.container {
+                    height: 300px;
+
+
+                    div.carousel-caption {
+                        bottom: 15px;
+                        padding: 15px 0;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+    .marketing .span4 + .span4 {
+        margin-top: 40px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+
+    .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
     }
 }
 

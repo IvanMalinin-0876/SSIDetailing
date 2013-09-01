@@ -2,8 +2,44 @@
 // Responsive: Tablet to desktop
 // --------------------------------------------------
 
+@media (max-width: 979px) {
 
-@media (min-width: 768px) and (max-width: 979px) {
+    div.navbar-wrapper {
+        position: static;
+        margin: 0;
+
+        * {
+            text-align: center;
+        }
+
+        > div.container-fluid {
+            padding: 0;
+
+            > div.navbar {
+                margin: 0 -20px;
+
+                > div.navbar-inner {
+
+                    padding:0;
+
+                    > a.brand {
+                        display: block;
+                        float: none;
+                    }
+
+                    > ul {
+                        display: table;
+                        float: none;
+                        margin: auto;
+
+                        > li {
+                            float: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
 
 
     div#myCarousel.carousel div.carousel-inner {
@@ -20,5 +56,22 @@
                 }
             }
         }
+
+        .carousel img {
+            width: auto;
+        }
+    }
+
+    .featurette {
+        height: auto;
+        padding: 0;
+    }
+
+    .featurette-image.pull-left,
+    .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 80%;
+        margin: 0 auto 20px;
     }
 }
